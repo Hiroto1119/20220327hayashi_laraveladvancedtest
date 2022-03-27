@@ -1,9 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\IndexController;
+use App\Http\Controllers\PostController;
 
-Route::get('/', [IndexController::class, 'index']);
-Route::post('/add', [IndexController::class, 'post']);
-Route::get('/add', [AuthorController::class, 'add']);
-Route::post('/add', [AuthorController::class, 'create']);
+Route::get('/', [PostController::class, 'index']);
+Route::post('/store', [PostController::class, 'store']);

@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>トップページ</h1>
-    <form action="/add" method="post">
+    <form action="store" method="post">
         @csrf
         <div>
             <label for="name">氏名</label><br>
