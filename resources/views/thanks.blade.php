@@ -7,6 +7,7 @@
     <title>Laravel Test</title>
 </head>
 <body>
-    <p>{{$txt}}</p>
+    <p>お問い合わせありがとうございます。</p>
+    <a href="/">トップへ戻る</a>
 </body>
 </html>
