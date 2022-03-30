@@ -18,8 +18,7 @@ class PostController extends Controller
         $post->email = $request->email;
         $post->save();
 
-        return redirect()
-            ->route('thanks');
+        return redirect('/thanks');
     }
     public function thanks()
     {
